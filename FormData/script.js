@@ -1,6 +1,6 @@
 function doForm(){
     const ajax = new XMLHttpRequest();
-    ajax.open('POST', "https://eo86ifshnf3n43u.m.pipedream.net");
+    ajax.open('POST', "");
     ajax.onload = () => {
         const responseHeader = document.createElement("h2");
         responseHeader.textContent = ajax.status;
